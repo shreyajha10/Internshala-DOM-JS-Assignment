@@ -28,7 +28,7 @@ function showTable(){
               }
 }
 
-//function for adding student
+//function for adding students
 
 function addStudent(event){
               event.preventDefault();
