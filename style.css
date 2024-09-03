@@ -1,0 +1,113 @@
+body {
+              background-color: aquamarine;
+            }
+            h2 {
+              text-align: center;
+              margin: 10px;
+              padding: 10px;
+              font-style: italic;
+              font-size: 2.2em;
+              color: rgb(11, 35, 223);
+            }
+            p {
+              text-align: center;
+            
+              font-size: 1.1em;
+              margin-bottom: 30px;
+            }
+            a {
+              text-decoration: none;
+            
+              font-size: 1.3em;
+              color: darkblue;
+            }
+            label {
+              margin-bottom: 5px;
+              font-weight: bold;
+            }
+            input {
+              margin-bottom: 15px;
+              border-radius: 5px;
+              padding: 8px;
+              border: 1px solid;
+            }
+            .container {
+              display: flex;
+            }
+            .left {
+              width: 40%;
+            
+              padding: 20px;
+              margin-bottom: 20px;
+              border-radius: 10px;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            
+              background: linear-gradient(45deg, rgb(255, 251, 0), rgb(9, 238, 9));
+            }
+            form {
+              display: flex;
+              flex-direction: column;
+            }
+            .buttoninput {
+              padding: 10px;
+              border-radius: 5px;
+              width: 100px;
+              margin-left: 38%;
+              background-color: blue;
+              border: 1px solid blue;
+              color: white;
+              font-size: large;
+            }
+            .right {
+              max-height: 400px;
+              overflow-y: auto;
+              width: 70%;
+              height: 450px;
+              margin: 10px;
+              background: linear-gradient(45deg, rgb(255, 251, 0), rgb(9, 238, 9));
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+              border-radius: 10px;
+              margin-top: 2px;
+              margin-bottom: 20px;
+            }
+            
+            table {
+              width: 100%;
+              border-collapse: collapse;
+            }
+            
+            th,
+            td {
+              padding: 10px;
+              text-align: center;
+              border-bottom: 1px solid #ddd;
+            }
+            
+            th {
+              /* background-color: #f4a261;*/
+              /*color: white;*/
+              font-size: larger;
+            }
+            
+            td {
+              background-color: #fef9e7;
+              font-size: large;
+            }
+            .actions button {
+              background-color: #e74c3c;
+              color: white;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              padding: 5px 10px;
+              margin-right: 5px;
+            }
+            
+            .actions button.edit {
+              background-color: #2980b9;
+            }
+            
+            .actions button:hover {
+              opacity: 0.8;
+            }
+            
